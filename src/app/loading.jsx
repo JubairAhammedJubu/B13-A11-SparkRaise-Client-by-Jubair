@@ -15,7 +15,7 @@ export default function Loading() {
               SparkRaise
             </span>
             <span className="text-xs text-gray-400 dark:text-gray-500">
-              Loading your journey...
+              Loading your campaigns...
             </span>
           </div>
         </div>

@@ -91,11 +91,11 @@ export default function SigninForm({ redirectTo = '/dashboard' }) {
         <div className="bg-white/80 dark:bg-[#1a1d24]/80 backdrop-blur-xl border border-gray-200 dark:border-gray-800 rounded-3xl overflow-hidden shadow-2xl hover:shadow-indigo-500/20 dark:hover:shadow-indigo-900/40 transition-all duration-300 flex flex-col md:flex-row">
           <div className="relative w-full md:w-1/2 h-48 md:h-auto overflow-hidden md:order-2">
             <Image
-              src="https://images.pexels.com/photos/1430676/pexels-photo-1430676.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Travel"
+              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Campaign Dashboard"
               fill
-              className="object-cover"
               priority
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/90 via-indigo-800/40 to-transparent" />
             <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">

@@ -99,7 +99,7 @@ export default function DashboardSidebar({ user: serverUser }) {
             </div>
 
             <div className="min-w-0 flex-1">
-              <div className="flex justify-between">
+              <div className="flex justify-between gap-2">
                 <div>
                   <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate">
                     {user?.name}

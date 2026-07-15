@@ -40,6 +40,7 @@ export default function NotificationBell() {
     }, []);
 
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         fetchNotifications();
         // Poll every 30s so the bell stays fresh without a websocket
         const interval = setInterval(fetchNotifications, 30000);
@@ -117,7 +118,7 @@ export default function NotificationBell() {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -8, scale: 0.97 }}
                         transition={{ duration: 0.15 }}
-                        className="absolute right-0 mt-2 w-80 max-w-[90vw] bg-white dark:bg-[#1a1d24] rounded-2xl border border-gray-100 dark:border-gray-800 shadow-xl z-50 overflow-hidden"
+                        className="absolute right-0 mt-2 w-60 max-w-[60vw] bg-white dark:bg-[#1a1d24] rounded-2xl border border-gray-100 dark:border-gray-800 shadow-xl z-50 overflow-hidden"
                     >
                         <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 dark:border-gray-800">
                             <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100">Notifications</h3>

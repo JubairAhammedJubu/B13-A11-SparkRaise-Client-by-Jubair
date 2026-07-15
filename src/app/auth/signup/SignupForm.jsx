@@ -114,7 +114,7 @@ export default function SignupForm({ redirectTo = '/dashboard' }) {
         <div className="bg-white/80 dark:bg-[#1a1d24]/80 backdrop-blur-xl border border-gray-200 dark:border-gray-800 rounded-3xl overflow-hidden shadow-2xl hover:shadow-indigo-500/20 dark:hover:shadow-indigo-900/40 transition-all duration-300 flex flex-col md:flex-row">
           <div className="relative w-full md:w-1/2 h-48 md:h-auto overflow-hidden">
             <Image
-              src="https://images.pexels.com/photos/1259628/pexels-photo-1259628.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Support ideas that matter"
               fill
               className="object-cover"

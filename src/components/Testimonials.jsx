@@ -85,7 +85,7 @@ export default function Testimonials() {
         >
           <Swiper
             modules={[Autoplay, Pagination]}
-            autoplay={{delay: 5000, disableOnInteraction: false}}
+            autoplay={{delay: 1500, disableOnInteraction: false}}
             pagination={{clickable: true}}
             spaceBetween={24}
             slidesPerView={1}

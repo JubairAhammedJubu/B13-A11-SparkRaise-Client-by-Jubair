@@ -47,7 +47,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 dark:bg-[#0e0e13] mt-auto">
       {/* --- Main body --- */}
-      <div className="max-w-7xl mx-auto">
+      <div className="px-6 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-[380px_1fr]">
           {/* Brand column */}
           <div className="relative border-b md:border-b-0  px-7 py-10">
@@ -68,7 +68,7 @@ const Footer = () => {
 
             <Link href="/" className="flex items-center gap-2.5 mb-4">
               <span className="text-xl font-bold bg-linear-to-r from-indigo-500 to-cyan-400 bg-clip-text text-transparent truncate">
-                Learnora
+                SparkRaise
               </span>
             </Link>
 
@@ -118,7 +118,7 @@ const Footer = () => {
               <ul className="divide-y divide-gray-100 dark:divide-gray-800/70">
                 <li className="py-3 first:pt-0">
                   <a
-                    href="mailto:support@learnora.com"
+                    href="mailto:support@SparkRaise.com"
                     className="flex items-start gap-3 group"
                   >
                     <Mail className="w-4 h-4 mt-0.5 text-indigo-400 flex-shrink-0" />
@@ -127,7 +127,7 @@ const Footer = () => {
                         Email
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                        support@learnora.com
+                        support@SparkRaise.com
                       </p>
                     </div>
                   </a>
@@ -214,7 +214,7 @@ const Footer = () => {
           >
             Jubair Ahammed
           </Link>{" "}
-          © {new Date().getFullYear()} Learnora. All rights reserved.
+          © {new Date().getFullYear()} SparkRaise. All rights reserved.
         </p>
         <div className="flex items-center gap-3 sm:gap-4">
           <Link
