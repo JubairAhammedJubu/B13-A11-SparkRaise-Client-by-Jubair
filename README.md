@@ -1,4 +1,4 @@
-````markdown
+
 # 🚀 SparkRaise - Crowdfunding Platform
 
 <p align="center">
@@ -321,4 +321,3 @@ Jubair Ahammed Developed as a **MERN Stack Crowdfunding Platform** showcasing se
 ## ⭐ Thank You
 
 If you found this project helpful, consider giving the repositories a ⭐ on GitHub.
-````
